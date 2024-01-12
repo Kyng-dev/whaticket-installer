@@ -35,7 +35,7 @@ system_git_clone() {
   sleep 2
 
   sudo su - deploy <<EOF
-  git clone https://github.com/Kyng-dev/Whaticket-vers-o-2 /home/deploy/whaticket/
+  git clone https://github.com/canove/whaticket-community /home/deploy/whaticket/
 EOF
 
   sleep 2
